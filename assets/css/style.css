@@ -26,8 +26,7 @@ body, html {
     height: 100px;
     background: #ffff;
     margin-top: -8px;
-    border-bottom: 2px solid #cccccc;
-    
+    border-bottom: 2px solid #cccccc; 
 }
 
 .mainwrapper{
@@ -116,4 +115,16 @@ body, html {
     border-right: 1px solid #dddd;
     width: 30%;
     margin-right: 6px
+}
+
+#bottomheader{
+    width: 100%;
+    height: 70px;
+    background: #666666;
+    margin-top: 122px;
+    border-top: 10px solid #4aaaa5; 
+    text-align: center;
+    line-height: 95px;
+    color: rgb(216, 216, 216);
+    font-size: 12px;
 }
