@@ -1,8 +1,7 @@
 body, html {
 
-    background: rgb(233, 233, 233);
     font-size: 18px;
-    color: rgb(255, 0, 0);
+    color: #777777;
     margin: 0;
     padding: 0;
     
@@ -11,19 +10,20 @@ body, html {
 
 .font1{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: green;
+    color: #777777;
+    font-size: 18px;
+
 }
 
 .font2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
     font-size: 30px;
     font-weight: bold;
 }
 
-#wbox{
+#header{
     width: 100%;
-    height: 110px;
+    height: 100px;
     background: #ffff;
     margin-top: -8px;
     border-bottom: 2px solid #cccccc;
@@ -36,9 +36,9 @@ body, html {
     margin: 0 auto;
 }
 
-#icontainer{
+#infobox{
     width: 960px;
-    height: 470px;
+    height: 450px;
     background: #ffff;
     margin-top: 30px;
     border: 1px solid #cccc;
@@ -47,8 +47,67 @@ body, html {
 #aboutme{
     border-bottom: 3px solid #dddd;
     margin: 0 auto;
-    width: 850px;
+    width: 900px;
     height: 120px;
     text-align: left;
-    line-height: 120px;
+    line-height: 130px;
+    color: #4aaaa5;
+}
+
+#myname{
+    position: relative;
+    bottom: 122px;
+    margin-bottom: -110px;
+    height: 100px;
+    width: 250px;
+    color: #ffff;
+    text-align: center;
+    line-height: 110px;
+    background: #4aaaa5;
+}
+
+#infocontainer{
+    width: 900px;
+    margin: 0 auto;
+}
+
+#img{
+    float: left;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+#page1text{
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+
+.navtext{
+    width: 33.3%;
+    height: 20px;
+
+}
+
+#navwrap{
+    height: 20px;
+    width: 250px;
+    background: rgb(126, 0, 0);
+    position: relative;
+    ;
+}
+
+#about{
+    background: rgb(255, 0, 85);
+    float: left;
+    
+}
+
+#contact{ 
+    background: blue;
+    float: left;
+}
+
+#portfolio{
+    background: rgb(51, 255, 0);
+    float: left;
 }
