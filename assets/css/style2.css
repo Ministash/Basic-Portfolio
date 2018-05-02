@@ -37,7 +37,7 @@ body, html {
 
 #infobox{
     width: 960px;
-    height: 420px;
+    height: 900px;
     background: #ffff;
     margin-top: 0px;
     border: 1px solid #cccc;
@@ -68,12 +68,6 @@ body, html {
 #infocontainer{
     width: 900px;
     margin: 0 auto;
-}
-
-#img{
-    float: left;
-    margin-top: 5px;
-    margin-right: 15px;
 }
 
 #page1text{
