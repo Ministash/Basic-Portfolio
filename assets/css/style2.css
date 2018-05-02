@@ -7,6 +7,49 @@ body, html {
     
 } 
 
+#tech1{
+    float: left;
+}
+
+#tech2{
+    float: left;
+    margin-left: 50px;
+}
+
+#picturewrapper{
+        margin: 0 auto;
+        width: 900px;
+        height: 100px;
+        margin-top: 30px;
+}
+
+#tech3{
+    float: left;
+}
+
+#tech4{
+    float: left;
+    margin-left: 50px;
+}
+
+#picturewrapper2{
+        margin: 0 auto;
+        width: 900px;
+        height: 230px;
+        margin-top: 160px;
+}
+
+#tech5{
+    float: left;
+    margin-left: 50px;
+}
+
+#picturewrapper3{
+        margin: 0 auto;
+        width: 900px;
+        height: 230px;
+        margin-top: 30px;
+}
 
 .font1{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -70,10 +113,6 @@ body, html {
     margin: 0 auto;
 }
 
-#page1text{
-    letter-spacing: 1px;
-    line-height: 50px;
-}
 
 .navtext{
     height: 20px;
