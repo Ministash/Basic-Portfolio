@@ -11,7 +11,7 @@ body, html {
 .font1{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    font-size: 18px;
+    font-size: 15px;
 
 }
 
@@ -38,9 +38,9 @@ body, html {
 
 #infobox{
     width: 960px;
-    height: 450px;
+    height: 420px;
     background: #ffff;
-    margin-top: 30px;
+    margin-top: 0px;
     border: 1px solid #cccc;
 }
 
@@ -48,9 +48,9 @@ body, html {
     border-bottom: 3px solid #dddd;
     margin: 0 auto;
     width: 900px;
-    height: 120px;
+    height: 100px;
     text-align: left;
-    line-height: 130px;
+    line-height: 100px;
     color: #4aaaa5;
 }
 
@@ -83,32 +83,37 @@ body, html {
 }
 
 .navtext{
-    width: 33.3%;
     height: 20px;
+    color: rgba(153, 152, 152, 0.867);
 
 }
 
 #navwrap{
     height: 30px;
-    width: 180px;
-    background: rgb(126, 0, 0);
+    width: 230px;
     position: relative;
+    left: 970px;
+    bottom: 90px;
+    margin-left: -200px;
     
-
 }
 
 #about{
-    background: rgb(255, 0, 85);
     float: left;
+    border-right: 1px solid #dddd;
+    width: 23%;
+    margin-right: 10px;
     
 }
 
 #contact{ 
-    background: blue;
     float: left;
+    width: 30%;
 }
 
 #portfolio{
-    background: rgb(51, 255, 0);
     float: left;
+    border-right: 1px solid #dddd;
+    width: 30%;
+    margin-right: 6px
 }
