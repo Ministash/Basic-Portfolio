@@ -21,6 +21,21 @@ body, html {
     font-weight: bold;
 }
 
+#contactwrapper{
+    margin-left: 10px;
+    width: 900px;
+    height: 600px;
+    margin-top: 30px;
+}
+
+
+#picturewrapper{
+    width: 535px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
 #header{
     width: 100%;
     height: 100px;
@@ -37,7 +52,7 @@ body, html {
 
 #infobox{
     width: 960px;
-    height: 500px;
+    height: 800px;
     background: #ffff;
     margin-top: 0px;
     border: 1px solid #cccc;
@@ -63,22 +78,6 @@ body, html {
     text-align: center;
     line-height: 110px;
     background: #4aaaa5;
-}
-
-#infocontainer{
-    width: 900px;
-    margin: 0 auto;
-}
-
-#img{
-    float: left;
-    margin-top: 5px;
-    margin-right: 15px;
-}
-
-#page1text{
-    letter-spacing: 1px;
-    line-height: 50px;
 }
 
 .navtext{
@@ -127,4 +126,32 @@ body, html {
     line-height: 95px;
     color: rgb(216, 216, 216);
     font-size: 12px;
+}
+
+input[type=text], select, textarea {
+    width: 875px; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
 }
