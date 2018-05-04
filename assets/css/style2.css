@@ -7,100 +7,7 @@ body, html {
     
 } 
 
-#tech1{
-    background-image: url("../images/tech1.jpg");
-    height: 210px;
-    width: 250px;
-    float: left;
-}
 
-#tech1box{
-    width: 100%;
-    height: 45px;
-    background: #4aaaa5;
-    position: relative;
-    top: 153px;
-    text-align: center;
-    color: white;
-    line-height: 45px;
-}
-
-#tech2{
-    background-image: url("../images/tech2.jpg");
-    height: 210px;
-    width: 250px;
-    float: left;
-    margin-left: 35px;
-}
-
-#tech2box{
-    width: 100%;
-    height: 45px;
-    background: #4aaaa5;
-    position: relative;
-    top: 153px;
-    text-align: center;
-    color: white;
-    line-height: 45px;
-}
-
-#tech3{
-    background-image: url("../images/tech3.jpg");
-    height: 210px;
-    width: 250px;
-    float: left;
-    margin-top: 35px;
-}
-
-#tech3box{
-    width: 100%;
-    height: 45px;
-    background: #4aaaa5;
-    position: relative;
-    top: 153px;
-    text-align: center;
-    color: white;
-    line-height: 45px;
-}
-
-#tech4{
-    background-image: url("../images/tech4.jpg");
-    height: 210px;
-    width: 250px;
-    float: left;
-    margin-top: 35px;
-    margin-left: 35px;
-}
-
-#tech4box{
-    width: 100%;
-    height: 45px;
-    background: #4aaaa5;
-    position: relative;
-    top: 153px;
-    text-align: center;
-    color: white;
-    line-height: 45px;
-}
-
-#tech5{
-    background-image: url("../images/tech5.jpg");
-    height: 210px;
-    width: 250px;
-    float: left;
-    margin-top: 35px;
-}
-
-#tech5box{
-    width: 100%;
-    height: 45px;
-    background: #4aaaa5;
-    position: relative;
-    top: 153px;
-    text-align: center;
-    color: white;
-    line-height: 45px;
-}
 
 #picturewrapper{
         width: 535px;
@@ -218,4 +125,144 @@ body, html {
     line-height: 95px;
     color: rgb(216, 216, 216);
     font-size: 12px;
+}
+
+#tech1box:hover{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(185, 117, 52);
+    position: relative;
+    right: 2px;
+    background: #2e6865;
+}
+
+#tech2box:hover{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(185, 117, 52);
+    position: relative;
+    right: 2px;
+    background: #2e6865;
+}
+
+#tech3box:hover{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(185, 117, 52);
+    position: relative;
+    right: 2px;
+    background: #2e6865;
+}
+
+#tech4box:hover{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(185, 117, 52);
+    position: relative;
+    right: 2px;
+    background: #2e6865;
+}
+
+#tech5box:hover{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(185, 117, 52);
+    position: relative;
+    right: 2px;
+    background: #2e6865;
+}
+
+#tech1{
+    background-image: url("../images/tech1.jpg");
+    height: 210px;
+    width: 250px;
+    float: left;
+}
+
+#tech1box{
+    width: 100%;
+    height: 45px;
+    background: #4aaaa5;
+    position: relative;
+    top: 153px;
+    text-align: center;
+    color: white;
+    line-height: 45px;
+}
+
+#tech2{
+    background-image: url("../images/tech2.jpg");
+    height: 210px;
+    width: 250px;
+    float: left;
+    margin-left: 35px;
+}
+
+#tech2box{
+    width: 100%;
+    height: 45px;
+    background: #4aaaa5;
+    position: relative;
+    top: 153px;
+    text-align: center;
+    color: white;
+    line-height: 45px;
+}
+
+#tech3{
+    background-image: url("../images/tech3.jpg");
+    height: 210px;
+    width: 250px;
+    float: left;
+    margin-top: 35px;
+}
+
+#tech3box{
+    width: 100%;
+    height: 45px;
+    background: #4aaaa5;
+    position: relative;
+    top: 153px;
+    text-align: center;
+    color: white;
+    line-height: 45px;
+}
+
+#tech4{
+    background-image: url("../images/tech4.jpg");
+    height: 210px;
+    width: 250px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+#tech4box{
+    width: 100%;
+    height: 45px;
+    background: #4aaaa5;
+    position: relative;
+    top: 153px;
+    text-align: center;
+    color: white;
+    line-height: 45px;
+}
+
+#tech5{
+    background-image: url("../images/tech5.jpg");
+    height: 210px;
+    width: 250px;
+    float: left;
+    margin-top: 35px;
+}
+
+#tech5box{
+    width: 100%;
+    height: 45px;
+    background: #4aaaa5;
+    position: relative;
+    top: 153px;
+    text-align: center;
+    color: white;
+    line-height: 45px;
 }
