@@ -9,12 +9,7 @@ body, html {
 
 
 
-#picturewrapper{
-        width: 535px;
-        height: 600px;
-        margin-top: 30px;
-        margin-left: 30px;
-}
+
 
 .font1{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -33,28 +28,27 @@ body, html {
     width: 100%;
     height: 100px;
     background: #ffff;
-    margin-top: -8px;
+    margin-top: -30px;
     border-bottom: 2px solid #cccccc; 
 }
 
 .mainwrapper{
-    width: 960px;
+    width: 90%;
     height: 100%;
     margin: 0 auto;
 }
 
 #infobox{
-    width: 960px;
-    height: 900px;
+    width: 60%;
     background: #ffff;
-    margin-top: 0px;
+    margin-top: 3%;
     border: 1px solid #cccc;
 }
 
 #aboutme{
     border-bottom: 3px solid #dddd;
     margin: 0 auto;
-    width: 900px;
+    width: 89%;
     height: 100px;
     text-align: left;
     line-height: 100px;
@@ -73,11 +67,6 @@ body, html {
     background: #4aaaa5;
 }
 
-#infocontainer{
-    width: 900px;
-    margin: 0 auto;
-}
-
 
 .navtext{
     height: 20px;
@@ -89,9 +78,8 @@ body, html {
     height: 30px;
     width: 280px;
     position: relative;
-    left: 940px;
-    bottom: 90px;
-    margin-left: -200px;
+    left: 75%;
+    top: 43%;
     font-weight: bold;
 }
 
@@ -127,142 +115,221 @@ body, html {
     font-size: 12px;
 }
 
-#tech1box:hover{
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(185, 117, 52);
-    position: relative;
-    right: 2px;
-    background: #2e6865;
+#picturewrapper{
+    width: 89%;
+    height: 900px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
-#tech2box:hover{
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(185, 117, 52);
-    position: relative;
-    right: 2px;
-    background: #2e6865;
+
+
+.box1class{
+background: #4aaaa5;
+width: 100%;
+position: relative;
+bottom: 60px;
+line-height: 200%;
+text-align: center;
+color: white;
 }
 
-#tech3box:hover{
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(185, 117, 52);
-    position: relative;
-    right: 2px;
-    background: #2e6865;
-}
-
-#tech4box:hover{
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(185, 117, 52);
-    position: relative;
-    right: 2px;
-    background: #2e6865;
-}
-
-#tech5box:hover{
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(185, 117, 52);
-    position: relative;
-    right: 2px;
-    background: #2e6865;
+.image1class{
+    height: 100%;
+    width: 100%;
 }
 
 #tech1{
-    background-image: url("../images/tech1.jpg");
-    height: 210px;
-    width: 250px;
-    float: left;
-}
-
-#tech1box{
-    width: 100%;
-    height: 45px;
-    background: #4aaaa5;
-    position: relative;
-    top: 153px;
-    text-align: center;
-    color: white;
-    line-height: 45px;
+    height: 30%;
+    width: 48%;
+background: red;
+float: left;
 }
 
 #tech2{
-    background-image: url("../images/tech2.jpg");
-    height: 210px;
-    width: 250px;
+    height: 30%;
+    width: 48%;
+    background: red;
     float: left;
-    margin-left: 35px;
-}
+    margin-left: 4%;
+    }
 
-#tech2box{
-    width: 100%;
-    height: 45px;
-    background: #4aaaa5;
-    position: relative;
-    top: 153px;
-    text-align: center;
-    color: white;
-    line-height: 45px;
-}
-
-#tech3{
-    background-image: url("../images/tech3.jpg");
-    height: 210px;
-    width: 250px;
+    #tech3{
+        height: 30%;
+        width: 48%;
+    background: red;
     float: left;
-    margin-top: 35px;
-}
+    margin-top: 25px;
+    }
 
-#tech3box{
-    width: 100%;
-    height: 45px;
-    background: #4aaaa5;
-    position: relative;
-    top: 153px;
-    text-align: center;
-    color: white;
-    line-height: 45px;
-}
-
-#tech4{
-    background-image: url("../images/tech4.jpg");
-    height: 210px;
-    width: 250px;
+    #tech4{
+        height: 30%;
+        width: 48%;
+        background: red;
+        float: left;
+        margin-left: 4%;
+        margin-top: 25px;
+        }
+ 
+    #tech5{
+        height: 30%;
+        width: 48%;
+    background: red;
     float: left;
-    margin-top: 35px;
-    margin-left: 35px;
+    margin-top: 25px;
+    }
+
+
+    
+
+@media (max-width: 1950px){
+    #infobox{
+       width: 45%;
+
+   }
 }
 
-#tech4box{
-    width: 100%;
-    height: 45px;
-    background: #4aaaa5;
-    position: relative;
-    top: 153px;
-    text-align: center;
-    color: white;
-    line-height: 45px;
+@media (max-width: 1600px){
+     #infobox{
+        width: 55%;
+
+    }
+ }
+
+ @media (max-width: 1160px){
+    #infobox{
+       width: 65%;
+
+   }
 }
 
-#tech5{
-    background-image: url("../images/tech5.jpg");
-    height: 210px;
-    width: 250px;
-    float: left;
-    margin-top: 35px;
-}
+@media (max-width: 980px){
+    #navwrap {
+         left: 69%;
+     }
+     #infobox{
+        width: 80%;
 
-#tech5box{
-    width: 100%;
-    height: 45px;
-    background: #4aaaa5;
-    position: relative;
-    top: 153px;
-    text-align: center;
-    color: white;
-    line-height: 45px;
-}
+    }
+ }
+ 
+ @media (max-width: 768px){
+     #infobox{
+         width: 100%;
+     }
+     #navwrap {
+         left: 64%;
+     }
+     #img{
+         width: 70%;
+         height: 70%;
+     }
+  }
+ 
+  @media (max-width: 640px){
+  
+    #myname{
+        position: relative;
+        bottom: 163px;
+        right: 32px;
+        height: 80px;
+        width: 112%;
+        color: #ffff;
+        text-align: center;
+        line-height: 80px;
+        background: #4aaaa5;
+    }
+ 
+     #header{
+         width: 100%;
+         height: 60px;
+         background: #ffff;
+         margin-top: 80px;
+         border-bottom: 2px solid #cccccc; 
+     }
+
+     .box1class{
+        line-height: 380%;
+        text-align: center;
+        position: relative;
+        bottom: 100px;
+        }
+ 
+ 
+        #navwrap {
+            left: 32%;
+            top:30%;
+        }
+  
+    #img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #tech1{
+        height:40%;
+        width: 90%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    #tech2{
+        height:40%;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
+        float: none;
+    }
+
+    #tech3{
+        height:40%;
+        width: 90%;
+        margin: 0 auto;
+        float: none;
+        margin-top: 50px;
+    }
+
+    #tech4{
+        height:40%;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
+        float: none;
+    }
+
+    #tech5{
+        height:40%;
+        width: 90%;
+        margin: 0 auto;
+        float: none;
+        margin-top: 50px;
+    }
+ 
+    #infobox{
+        height: 2300px;
+    }
+
+
+ }
+
+ 
+ @media (max-width: 570px){
+    #navwrap {
+        left: 27%;
+        top:30%;
+    }
+    }
+    
+    @media (max-width: 490px){
+        #navwrap {
+            left: 25%;
+            top:30%;
+        }
+        }
+    
+        @media (max-width: 450px){
+            #navwrap {
+                left: 23%;
+                top:30%;
+            }
+            }
