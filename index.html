@@ -1,43 +1,135 @@
 <!DOCTYPE html>
-<html lang= "en-us">
+<html lang="en-us">
 
-
-<Head>
-        <title>Hunter's Great Page</title>
+<head>
+        <meta charset="UTF-8">
+        <title>Hunter Haak's Portfolio</title>
         <link rel="stylesheet" type="text/css" href="assets\css\style.css">
-</Head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+</head>
 
-<body background="assets\images\dust.png">
-  
-              <div id= "header" >
-                        <div id="navwrap">
-                                        <p><a href="index.html" id= "about" class="navtext">About</a></p>
-                                        <p><a href="Portfolio.html" id= "portfolio" class="navtext">Portfolio</a></p>
-                                        <p><a href="Contact.html" id= "contact" class="navtext">Contact</a></p>
-                                     </div>
-              </div>
-         
-     <div class= "mainwrapper">
-        <h1 id= "myname" class="font2">Hunter Haak</h1>
-
-
-                <div id= "infobox">
-                     <div class="font2" id= "aboutme">About Me</div>
-            
-                                  <div id="infocontainer">
-                                      <img id="img" src="assets\images\hunter.jpg" height="160" width="220">
-                                      <p class="font1" id= "page1text">
-                                        Hello! My name is Hunter Henry Haak (Yeah, yeah, I get it. Triple "H") I was born and raised in Phoenix, Arizona. 
-                                        Most of my life I have been obsessed with sports that are a bit out of the ordinary. 
-                                        I have been a hiker my entire life, I was a gymnast for 4, and I have been into indoor rock climbing for the past 10 years. 
-                                        Because of these sports, I have truly developed a love and true connection with the outdoors.
-                                       </p>
-                                </div>
+<body>
+        <div class="navbar-fixed">
+                <nav>
+                        <div class="nav-wrapper">
+                                <a href="#!" class="brand-logo" id="name"></a>
+                                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                                        <i class="large material-icons">dehaze</i>
+                                </a>
+                                <ul class="right hide-on-med-and-down">
+                                        <li>
+                                                <a href="index.html">About Me</a>
+                                        </li>
+                                        <li>
+                                                <a href="Portfolio.html">Projects</a>
+                                        </li>
+                                        <li>
+                                                <a href="Contact.html">Contact</a>
+                                        </li>
+                                </ul>
                         </div>
-                </div>
-                               
-                
-                <div id= "bottomheader">Copyright &copy</div>
+                </nav>
+        </div>
 
-</div>
+        <ul class="sidenav" id="mobile-demo">
+                <li class="sideBarItems">
+                        <a href="index.html">About Me</a>
+                </li>
+                <li>
+                        <a href="Portfolio.html">Projects</a>
+                </li>
+                <li>
+                        <a href="Contact.html">Contact</a>
+                </li>
+        </ul>
+
+        <div id="topImage">
+                <div id="img1Text">
+                        Hunter Haak: Full Stack Development
+                </div>
+        </div>
+
+        <div class="row">
+                <div class="col s12 generalWrapper">
+                        <div class="row">
+                                <div class="col s2"></div>
+                                <p class="col s8 text">Finding a passion for anything connected to computers at a young age, I have been pursing
+                                        the creative side of web development for a long time. Discovering powerful applications
+                                        like Photoshop, After Effects, and Illustrator early on helped me gain a comprehensive
+                                        understanding of how most applications work, pushing me into seeking deeper knowledge
+                                        about how computers function. These events lead me to things like joining the robotics
+                                        team in high school, seeking after learning programming languages on my own, and
+                                        eventually me deciding to pursue a a career in front-end and back-end web development.
+                                        As of right now, I am currently attending a six month program for the U of A in this
+                                        field along with projects to help me truly become efficient in the career.</p>
+                        </div>
+                        <div class="col s2"></div>
+
+
+
+                </div>
+
+        </div>
+
+        <div class="logoWrapper row">
+                <div class="col s2">
+                        <img class="logos" src="assets/images/jquery2.png">
+                </div>
+                <div class="col s2">
+                        <img class="logos" src="assets/images/node2.png">
+                </div>
+                <div class="skillWrapper col s2">
+                        <img class="logos" href="https://en.wikipedia.org/wiki/Ajax_(programming)" src="assets/images/ajax1.png">
+                </div>
+                <div class="skillWrapper col s2">
+                        <img class="logos" src="assets/images/css2.png">
+                </div>
+                <div class="skillWrapper col s2">
+                        <img class="logos" src="assets/images/bootstrap.png">
+                </div>
+                <div class="skillWrapper col s2">
+                        <img class="logos" src="assets/images/js.png">
+                </div>
+                <div class="col s2"></div>
+                <div class="col s8 text2">I am currently working with technologies such as Jquery, Node.js, Ajax, Css3, Bootstrap, Javascript, and
+                        many more.</div>
+                <div class="col s2"></div>
+        </div>
+
+        <div class="col s12 generalWrapper2">
+                <div class="text3">Projects I've worked on-</div>
+
+                <div class="row">
+                        <div class="col s2"></div>
+
+                        <div class="col s2 ">
+                                        <a href="https://ministash.github.io/TheGif/" target="_blank"><img class="logos2 thegif z-depth-5" src="assets/images/thegif.png"></a>
+                        </div>
+                        <div class="col s2">
+                                <a href="https://ministash.github.io/unit-4-game/" target="_blank"><img class="logos2 gemcollector z-depth-5" src="assets/images/gemcollector.png"></a>
+                        </div>
+                        <div class=" col s2">
+                              <a href="https://ministash.github.io/TriviaGame/" target="_blank"><img class="logos2 medical z-depth-5" src="assets/images/medical trivia.png"></a>  
+                        </div>
+                        <div class="col s2">
+                                <a href="https://ministash.github.io/Psychic-Game/" target="_blank"><img class="logos2 psychic z-depth-5" src="assets/images/psychic game.png"></a>
+                                
+                        </div>
+
+                        <div class="col s2"></div>
+
+
+                </div>
+
+        </div>
+
+
+
+        <script type="text/javascript" src="assets\javascript\logic.js"></script>
+</body>
+
+</html>
