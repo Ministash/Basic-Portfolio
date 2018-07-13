@@ -15,7 +15,6 @@ html{
     font-family: 'Ubuntu';
 }
 
-
 .x {
     -webkit-user-select: none;
     -moz-user-select: none;     
@@ -44,7 +43,6 @@ html{
         background-size: cover;
         border: 1px solid rgba(255, 255, 255, 0);
 }
-
 
 #img1Text{
     margin: 0 auto;
@@ -201,4 +199,3 @@ html{
     border: 5px solid rgb(51, 255, 51);
     border-radius: 100%;
 }
-
